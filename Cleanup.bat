@@ -1,8 +1,10 @@
 @echo off
 echo Removing...
 
-if exist Bin\          rd /s /q Bin\
-if exist Intermediate\ rd /s /q Intermediate\
+set folders=.vs\, Bin\, Intermediate\
+
+for %%G in (%folders%) do (
+	if exist %%G rd /s /q %%G
+)
 
 echo Done.
-pause

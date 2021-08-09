@@ -15,8 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mikrokosmos.ixx">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="Applications\App.cpp" />
+    <ClCompile Include="Applications\App.ixx" />
+    <ClCompile Include="Applications\Applications.ixx" />
+    <ClCompile Include="Applications\EntryPoint.ixx" />
+    <ClCompile Include="Mikrokosmos.ixx" />
   </ItemGroup>
 </Project>
