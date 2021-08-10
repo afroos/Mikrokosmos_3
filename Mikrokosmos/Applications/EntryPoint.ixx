@@ -7,13 +7,11 @@ export namespace mk
 {
 	template <typename App>
 	int Run()
-	{
-		App app;
-
-		std::cout << app.Name() << std::endl;
-		
+	{	
 		try
 		{
+			App app;
+			std::cout << app.Name() << std::endl;
 			app.Run();
 		}
 		catch (const std::exception& e)

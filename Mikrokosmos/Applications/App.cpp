@@ -20,7 +20,7 @@ namespace mk
 		return m_name;
 	}
 
-	void App::SetName(std::string name)
+	void App::SetName(const std::string& name)
 	{
 		if (name.empty())
 		{
